@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        nav ul li{
+                
+            list-style: none;
+            display: inline;
+            margin-right: 10px;
+
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav{
+            background-color: black;
+            padding: 10px;
+        }
+
+        nav ul li a:hover{
+            background-color: rgb(57, 47, 255);
+        }
+
+        nav ul li a:active{
+            background-color: burlywood;
+        }
+
+        main{
+
+            border-style: solid;
+            border-radius: 50px;
+            margin: 50px;
+            padding: 50px;
+        }
+
+        section{
+
+            border-style: solid;
+            border-color: brown;
+            margin-bottom: 60px;
+           padding-left: 40%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="C:\Users\WORKS\Desktop\html\quiz.html"target="_blank">Quiz</a></li>
+            <li><a href="#c">Contact</a></li>
+            <li style="float: right;"><a href="">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h1>chicken:</h1>
+            <ul>
+                <p>
+                    Le poulet est une viande polyvalente et populaire, appréciée pour sa tendreté et sa saveur. Il est utilisé dans une multitude de recettes, des plats simples aux mets plus élaborés. En plus d'être délicieux, le poulet est une excellente source de protéines et de nutriments essentiels.</p>
+            </ul>
+        </section>
+
+       
+
+        <section>
+            <h1>sushi</h1>
+            <ul>
+               <p>
+                Les sushis sont une délicieuse spécialité japonaise qui combine du riz vinaigré avec du poisson frais et d'autres garnitures. Ces petits chefs-d'œuvre offrent une explosion de saveurs et de textures, devenant ainsi une expérience culinaire inoubliable. Prisés pour leur fraîcheur et leur présentation artistique, les sushis célèbrent la cuisine japonaise avec élégance et simplicité.</p>
+            </ul>
+        </section>
+
+        <section>
+            <h1>beef</h1>
+            <ul>
+                <p>
+                    Le bœuf est une viande appréciée pour sa tendreté et sa saveur riches. Que ce soit en steak, en ragoût ou en hamburger, il offre une variété infinie de possibilités culinaires. En plus d'être délicieux, le bœuf est une excellente source de protéines et de nutriments essentiels.</p>
+            </ul>
+        </section>
+
+        <section>
+            <h1 id="c">Contact us:</h1>
+            <ul>
+                <li><p>gmail:ayaabbay17@gmail.com</p></li>
+                <li><p>telephone:0670118715</p></li>
+            </ul>
+        </section>
+        
+
+    </main>
+
+    
+</body>
+</html>
